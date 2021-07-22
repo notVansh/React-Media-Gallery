@@ -1,0 +1,31 @@
+.image-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-gap: 0 10px;
+  align-content: center;
+  grid-auto-rows: 10.5px;
+  justify-content: center;
+}
+
+.image-list img{
+  width: 260px;
+  display: block;
+  margin: 0 auto;
+  padding: 4px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+.image-list img:hover{
+  box-shadow: 0 0 10px #494949;
+}
+
+.btn-img{
+  cursor: pointer;
+  background: none;
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
